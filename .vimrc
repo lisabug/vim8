@@ -1,3 +1,7 @@
+" Vimrc for Yuanqin Lu
+" Last update: 2018.05.09
+
+
 " Specify a directory for plugins
 " - For Neovim: ~/.local/share/nvim/plugged
 " - Avoid using standard Vim directory names like 'plugin'
