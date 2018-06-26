@@ -52,6 +52,10 @@ Plug 'honza/vim-snippets'
 Plug 'scrooloose/nerdcommenter'
 " Quotation, Brackets Completion
 Plug 'Raimondi/delimitMate'
+" DirectoryTree
+Plug 'scrooloose/nerdtree'
+Plug 'jistr/vim-nerdtree-tabs'
+Plug 'szw/vim-ctrlspace'
 
 " Python Syntax Highlight
 Plug 'hdima/python-syntax'
@@ -251,6 +255,17 @@ hi! SpellBad gui=undercurl guisp=red
 hi! SpellCap gui=undercurl guisp=blue
 hi! SpellRare gui=undercurl guisp=magenta
 
+""" NerdTree Configuration
+let g:nerdtree_tabs_open_on_gui_startup=0 " Not open NerdTree Automotically when start Vim.
+let NERDTreeChDirMode=1
+let NERDTreeShowBookmarks=1
+let NERDTreeWinSize=25
+let NERDTreeShowHidden=1
+let NERDTreeIgnore=['\~$', '\.pyc$', '\.swp$', '\.git$']
+map <F11> :NERDTreeTabsToggle<CR>
+imap <F11> <ESC> :NERDTreeTabsToggle<CR>
+" Tagbar
+nmap <F12> :TagbarToggle<CR>
 
 """ YCM Config
 let g:ycm_add_preview_to_completeopt = 0
