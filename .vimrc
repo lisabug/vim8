@@ -56,7 +56,8 @@ Plug 'Raimondi/delimitMate'
 Plug 'scrooloose/nerdtree'
 Plug 'jistr/vim-nerdtree-tabs'
 Plug 'szw/vim-ctrlspace'
-
+" Tagbar
+Plug 'majutsushi/tagbar'
 " Python Syntax Highlight
 Plug 'hdima/python-syntax'
 
